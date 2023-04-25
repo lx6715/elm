@@ -1,8 +1,8 @@
 //导入axiosInstance
-import axios from "../axios";
+import axiosInstance from "../axiosInstance";
 const categoryInfo = {
 	getAllList() {
-		return axios.get("/categoryInfo/getAllList");
+		return axiosInstance.get("/categoryInfo/getAllList");
 	},
 };
 export default categoryInfo;
