@@ -1,6 +1,7 @@
 import axios from "../axios";
 
 const shopCart = {
+<<<<<<< HEAD
   addToShopCart({ fid, count }) {
     return axios.post("/shopCart/addToShopCart", {
       fid,
@@ -17,6 +18,14 @@ const shopCart = {
       },
     });
   },
+=======
+	addToShopCart({ fid, count }) {
+		return axios.post("/shopCart/addToShopCart", {
+			fid,
+			count
+		});
+	}
+>>>>>>> 6ee3c0a8570d7d7438e71b510b4b18d7d2c00cc6
 };
 
 export default shopCart;
